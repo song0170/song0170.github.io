@@ -4,9 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>song0170 midterm</title>
+     <link href="css/reset.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-    
+<div class="container">
+    <!-- Header section with background image and site title -->
+    <header>
+        <img src="images/Bauhaus-main.png" alt="Bauhaus header image">
+        <h1>song0170 Midterm</h1>
+    </header>
+    <nav>
+         <!-- Navigation menu for page sections -->
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="introduction" id="introduction">
+        <h2>What is Bauhaus?</h2>
+        <img src="images/Bauhaus-Dessau.jpg" alt="Bauhaus Building">
+        <p>Bauhaus was a German school of art, architecture, and design founded in 1919 by Walter Gropius in Weimar, Germany. The school aimed to unite fine arts, crafts, and modern technology in order to create functional and practical designs for everyday life. Instead of focusing on heavy decoration, Bauhaus designers emphasized simplicity, geometric forms, and clean lines.</p>
+        <p>The Bauhaus movement had a strong influence on modern architecture, graphic design, and product design. Teachers and students experimented with new materials, industrial production methods, and modern visual language. Their ideas helped promote the concept that design should serve a clear purpose and that form should follow function.</p>
+        <p>Although the school was eventually closed in 1933 due to political pressure in Germany, the influence of Bauhaus continued to spread around the world. Many Bauhaus artists and architects moved to other countries and continued their work internationally, helping shape modern design and architecture throughout the twentieth century.</p>
+    </section>
+    <section class="about" id="about">
+        <!-- Facts about Bauhaus -->
+        <h2>About Bauhaus</h2>
+        <ul>
+            <li>Founded in 1919 by Walter Gropius</li>
+            <li>Located in Weimar, Germany</li>
+            <li>Emphasized functional and practical design</li>
+            <li>Known for its minimalist aesthetic</li>
+        </ul>
+    </section>
+    <section class="contact" id="contact">
+        <!-- Contact form for users to send a message -->
+        <h2>Contact to learn more</h2>
+        <form class="contact-form">
+            <label for="name">Your Name</label>
+            <input type="text" id="name">
+            <label for="email">Your Email</label>
+            <input type="email" id="email">
+            <label for="message">Your Message</label>
+            <textarea id="message"></textarea>
+            <div class="radio-group">
+            <p>Would you like to learn more about Bauhaus?</p>
+            <label><input type="radio" name="interest" value="yes"> Yes</label>
+            <label><input type="radio" name="interest" value="no"> No</label>
+            <label><input type="radio" name="interest" value="maybe"> Maybe</label>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    </main>
+
+    <footer>
+        <p>&copy; Hyein Song</p>
+    </footer>
+</div>    
 </body>
 </html>
