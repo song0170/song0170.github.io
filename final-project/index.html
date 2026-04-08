@@ -33,7 +33,7 @@
     </header>
     <main>
         <section id="home" class="home-section">
-            <div clss="contact">
+            <div class="home-content">
                 <h1>Welcome to Three Star Media</h1>
                 <p class="home-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, corrupti enim. Dolorum eum tenetur amet? Dolorem dignissimos esse odit molestias tempore, ea qui, maiores odio quas sit voluptatem id officiis.
@@ -44,7 +44,7 @@
             </div>
         </section>
         <!--about-->
-        <section id="about-image">
+        <section id="about" class="about-section">
             <div class="about-image">
             <img src="images/about-us.jpg" alt="Ping pong table in a bright workspace" />
             </div>
@@ -62,13 +62,31 @@
         <section id="services" class="services-section">
             <h2 class="section-heading">Our Services</h2>
             <!--services list-->
+            <div class="services-list">
+                <!--service 1 digital transformation-->
             <article class="services-card" id="digital-transformation">
-                <div class="sevices-content">
+                <div class="services-image">
+                    <img src="images/digital.jpg" alt="Person using laptop and phone in a cafe" />
+                </div>
+                <div class="services-content">
                     <h3 class="services-title">Digital Transformation</h3>
                     <p class="services-text">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta sit amet neque, veritatis eaque doloremque. Voluptatem tenetur odio a architecto dolorum. Debitis atque, tempora vero sit quo voluptate numquam iure!
                     </p>
                     <a href="#" class="btn">Digital Plans</a>
+                </div>
+            </article>
+            <!--service 2 marketing-->
+            <article class="service-card" id="marketing">
+                <div class="service-image">
+                    <img src="images/marketing.jpg" alt="Person presenting a graph on a laptop" />
+                </div>
+                <div class="services-content">
+                    <h3 class="services-title">Marketing</h3>
+                    <p class="services-text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta sit amet neque, veritatis eaque doloremque. Voluptatem tenetur odio a architecto dolorum. Debitis atque, tempora vero sit quo voluptate numquam iure!
+                    </p>
+                    <a href="#" class="btn">Marketing Plans</a>
                 </div>
             </article>
             <!--service 3 video production-->
@@ -95,6 +113,7 @@
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta sit amet neque, veritatis eaque doloremque. Voluptatem tenetur odio a architecto dolorum. Debitis atque, tempora vero sit quo voluptate numquam iure!
                     </p>
                     <a href="#" class="btn">Web Plans</a>
+                </div>    
             </article>
             <!--service 5 print-->
             <article class="service-card" id="print">
@@ -109,10 +128,11 @@
                     <a href="#" class="btn">Print Plans</a>
                 </div>
             </article> 
+        </div>    
         </section>
         <!--our vision section-->
         <section id="vision" class="vision-section">
-            <div class="vision" class="vision-section">
+            <div class="vision-image">
                 <img src="images/vision.jpg" alt="Abstract blue paper origami shapes"/>
             </div>
             <div class="vision-content">
@@ -121,14 +141,15 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, corrupti enim. Dolorum eum tenetur amet? Dolorem dignissimos esse odit molestias tempore, ea qui, maiores odio quas sit voluptatem id officiis.
                 </p>
                 <a href="#" class="btn">Learn More</a>
+            </div>    
         </section>
         <!--our team section-->
         <section id="team" class="team-section">
             <h2 class="section-heading">Our Team</h2>
             <ul class="team-list">
-                <il class="team-member">
+                <li class="team-member">
                     <div class="team-member-image">
-                        <img src="images/john.jpg" alt="John Doe", CEO and Co-owner" />
+                        <img src="images/john.jpg" alt="John Doe, CEO and Co-owner" />
                     </div>
                     <div class="team-member-info">
                         <h3 class="team-member-name">John Doe</h3>
@@ -137,7 +158,7 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, nam tempora mollitia earum fugit harum. Assumenda perspiciatis nesciunt odio maiores aperiam provident reiciendis accusantium incidunt cumque vero odit, dolore pariatur.
                         </p>
                     </div>
-                </il>
+                </li>
                 <!--team member 2-->
                 <li class="team-member">
                     <div class="team-member-image">
@@ -182,6 +203,7 @@
                     <thead>
                         <tr>
                             <th class="hours-th">Days</th>
+                            <th class="hours-th">Hours</th>
                         </tr>
                     </thead>
                     <tbody>
